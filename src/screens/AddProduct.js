@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, Button, StyleSheet, Alert, Image, TouchableOpacity } from 'react-native';
+import { View, Text, TextInput, Button, StyleSheet, Alert, Image, TouchableOpacity,loadProducts } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export default function AddProduct({ navigation, route }) {
