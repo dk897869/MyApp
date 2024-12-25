@@ -43,7 +43,7 @@ export default function Login({ navigation }) {
   return (
     <View style={styles.container}>
       <Image
-        source={require('../../assets/images/LoginUi image.png')} // Replace with your image path
+        source={require('../assets/images/LoginUi image.png')} // Replace with your image path
         style={styles.image}
       />
       <Text style={styles.title}>Login</Text>
@@ -82,10 +82,11 @@ const styles = StyleSheet.create({
     fontSize: 34,
     fontWeight: 'bold',
     marginBottom: 20,
+    marginRight:230,
   },
   input: {
     width: '100%',
-    marginBottom: 20,
+    marginBottom: 30,
     borderWidth: 1,
     borderColor: '#ccc',
     borderRadius: 10,
